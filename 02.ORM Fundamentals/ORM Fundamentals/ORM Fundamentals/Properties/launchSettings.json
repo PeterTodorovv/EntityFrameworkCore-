@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ORM Fundamentals": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

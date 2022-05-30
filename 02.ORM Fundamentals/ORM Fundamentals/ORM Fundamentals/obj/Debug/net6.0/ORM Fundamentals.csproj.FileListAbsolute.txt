@@ -1,0 +1,58 @@
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\ORM Fundamentals.exe
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\ORM Fundamentals.deps.json
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\ORM Fundamentals.runtimeconfig.json
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\ORM Fundamentals.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\ORM Fundamentals.pdb
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Humanizer.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\obj\Debug\net6.0\ORM Fundamentals.csproj.AssemblyReference.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\obj\Debug\net6.0\ORM Fundamentals.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\obj\Debug\net6.0\ORM Fundamentals.AssemblyInfoInputs.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\obj\Debug\net6.0\ORM Fundamentals.AssemblyInfo.cs
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\obj\Debug\net6.0\ORM Fundamentals.csproj.CoreCompileInputs.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\obj\Debug\net6.0\ORM Fundamentals.csproj.CopyComplete
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\obj\Debug\net6.0\ORM Fundamentals.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\obj\Debug\net6.0\refint\ORM Fundamentals.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\obj\Debug\net6.0\ORM Fundamentals.pdb
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\obj\Debug\net6.0\ORM Fundamentals.genruntimeconfig.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\02.ORM Fundamentals\ORM Fundamentals\ORM Fundamentals\obj\Debug\net6.0\ref\ORM Fundamentals.dll
