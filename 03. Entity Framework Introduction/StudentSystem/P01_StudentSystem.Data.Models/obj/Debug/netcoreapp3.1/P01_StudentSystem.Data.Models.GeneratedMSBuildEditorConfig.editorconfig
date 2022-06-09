@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = P01_StudentSystem.Data.Models
+build_property.ProjectDir = D:\c#Code\softuniC#\06.EntityFrameworkCore\03. Entity Framework Introduction\StudentSystem\P01_StudentSystem.Data.Models\
