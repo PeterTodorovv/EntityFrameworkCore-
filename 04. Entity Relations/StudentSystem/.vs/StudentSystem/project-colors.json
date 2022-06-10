@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ea83332a-b98b-42a2-a5b8-a4c731d4cb97": {
+      "ProjectGuid": "ea83332a-b98b-42a2-a5b8-a4c731d4cb97",
+      "DisplayName": "P01_StudentSystem.Data.Models",
+      "ColorIndex": 0
+    },
+    "89b5d2fa-c676-4d9d-bac2-8f6495532adc": {
+      "ProjectGuid": "89b5d2fa-c676-4d9d-bac2-8f6495532adc",
+      "DisplayName": "P01_StudentSystem.Data",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

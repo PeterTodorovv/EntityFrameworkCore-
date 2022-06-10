@@ -1,0 +1,10 @@
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\Football Bookmaker System\P03_FootballBetting.Data.Models\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.deps.json
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\Football Bookmaker System\P03_FootballBetting.Data.Models\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\Football Bookmaker System\P03_FootballBetting.Data.Models\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.pdb
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\Football Bookmaker System\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.csproj.AssemblyReference.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\Football Bookmaker System\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\Football Bookmaker System\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.AssemblyInfoInputs.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\Football Bookmaker System\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.AssemblyInfo.cs
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\Football Bookmaker System\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.csproj.CoreCompileInputs.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\Football Bookmaker System\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\Football Bookmaker System\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.pdb
