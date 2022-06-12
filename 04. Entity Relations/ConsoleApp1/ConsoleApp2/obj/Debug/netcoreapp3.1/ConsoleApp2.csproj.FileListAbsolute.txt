@@ -1,0 +1,14 @@
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\ConsoleApp1\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.exe
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\ConsoleApp1\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.deps.json
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\ConsoleApp1\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.runtimeconfig.json
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\ConsoleApp1\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.runtimeconfig.dev.json
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\ConsoleApp1\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\ConsoleApp1\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.pdb
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\ConsoleApp1\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.csproj.AssemblyReference.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\ConsoleApp1\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\ConsoleApp1\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.AssemblyInfoInputs.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\ConsoleApp1\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.AssemblyInfo.cs
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\ConsoleApp1\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.csproj.CoreCompileInputs.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\ConsoleApp1\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\ConsoleApp1\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.pdb
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\ConsoleApp1\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.genruntimeconfig.cache
