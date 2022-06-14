@@ -11,6 +11,7 @@ namespace MusicHub.Data.Models
     {
         public Album()
         {
+            Songs = new HashSet<Song>();
             Price = Songs.Sum(s => s.Price);
         }
 
@@ -27,7 +28,7 @@ namespace MusicHub.Data.Models
         public decimal Price { get; set; }
 
         [ForeignKey(nameof(Producer))]
-        public int ProducerId { get; set; }
+        public int? ProducerId { get; set; }
         public virtual Producer Producer { get; set; }
 
         public virtual ICollection<Song> Songs { get; set; }

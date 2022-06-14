@@ -19,7 +19,6 @@
             context.Database.EnsureDeleted();
             context.Database.EnsureCreated();
 
-            Console.WriteLine("MusicHub database created successfully.");
 
             Seed(context);
         }
