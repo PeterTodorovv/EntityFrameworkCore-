@@ -1,0 +1,16 @@
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Data.deps.json
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Data.runtimeconfig.json
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Data.runtimeconfig.dev.json
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Data.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Data.pdb
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Models.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Models.pdb
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.csproj.AssemblyReference.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.AssemblyInfoInputs.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.AssemblyInfo.cs
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.csproj.CoreCompileInputs.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.csproj.CopyComplete
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.pdb
+D:\c#Code\softuniC#\06.EntityFrameworkCore\07, AutoMapper\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.genruntimeconfig.cache
