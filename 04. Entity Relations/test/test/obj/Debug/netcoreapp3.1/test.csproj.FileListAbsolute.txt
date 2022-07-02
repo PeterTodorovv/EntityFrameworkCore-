@@ -1,0 +1,14 @@
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\test\test\bin\Debug\netcoreapp3.1\test.exe
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\test\test\bin\Debug\netcoreapp3.1\test.deps.json
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\test\test\bin\Debug\netcoreapp3.1\test.runtimeconfig.json
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\test\test\bin\Debug\netcoreapp3.1\test.runtimeconfig.dev.json
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\test\test\bin\Debug\netcoreapp3.1\test.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\test\test\bin\Debug\netcoreapp3.1\test.pdb
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\test\test\obj\Debug\netcoreapp3.1\test.csproj.AssemblyReference.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\test\test\obj\Debug\netcoreapp3.1\test.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\test\test\obj\Debug\netcoreapp3.1\test.AssemblyInfoInputs.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\test\test\obj\Debug\netcoreapp3.1\test.AssemblyInfo.cs
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\test\test\obj\Debug\netcoreapp3.1\test.csproj.CoreCompileInputs.cache
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\test\test\obj\Debug\netcoreapp3.1\test.dll
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\test\test\obj\Debug\netcoreapp3.1\test.pdb
+D:\c#Code\softuniC#\06.EntityFrameworkCore\04. Entity Relations\test\test\obj\Debug\netcoreapp3.1\test.genruntimeconfig.cache
