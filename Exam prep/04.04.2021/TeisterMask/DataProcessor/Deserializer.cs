@@ -4,9 +4,11 @@
     using System.Collections.Generic;
 
     using System.ComponentModel.DataAnnotations;
-
+    using System.IO;
+    using System.Text;
+    using System.Xml.Serialization;
     using Data;
-
+    using TeisterMask.DataProcessor.ImportDto;
     using ValidationContext = System.ComponentModel.DataAnnotations.ValidationContext;
 
     public class Deserializer
@@ -21,7 +23,19 @@
 
         public static string ImportProjects(TeisterMaskContext context, string xmlString)
         {
-            throw new NotImplementedException();
+            XmlRootAttribute root = new XmlRootAttribute("Projects");
+            XmlSerializer serializer = new XmlSerializer(typeof(ProjectImportDto[]), root);
+
+            StringReader reader = new StringReader(xmlString);
+
+            ProjectImportDto[] projectsDtos = (ProjectImportDto[])serializer.Deserialize(reader);
+
+            StringBuilder message = new StringBuilder();
+
+            foreach(var project in projectsDtos)
+            {
+
+            }
         }
 
         public static string ImportEmployees(TeisterMaskContext context, string jsonString)
