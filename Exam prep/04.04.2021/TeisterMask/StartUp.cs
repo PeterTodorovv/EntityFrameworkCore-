@@ -17,13 +17,13 @@
 
             Mapper.Initialize(cfg => cfg.AddProfile<TeisterMaskProfile>());
 
-            ResetDatabase(context, shouldDropDatabase: false);
+            ResetDatabase(context, shouldDropDatabase: true);
 
             var projectDir = GetProjectDirectory();
 
             ImportEntities(context, projectDir + @"Datasets/", projectDir + @"ImportResults/");
 
-            //ExportEntities(context, projectDir + @"ExportResults/");
+            ExportEntities(context, projectDir + @"ExportResults/");
 
             using var transaction = context.Database.BeginTransaction();
 
