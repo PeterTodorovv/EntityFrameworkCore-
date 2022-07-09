@@ -25,6 +25,7 @@ namespace VaporStore.Data.Models
         public string Cvc { get; set; }
 
         [Required]
+        [Range(0, 1)]
         public CardType Type { get; set; }
 
         [Required]

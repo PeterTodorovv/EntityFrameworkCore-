@@ -8,10 +8,13 @@
   <ItemGroup>
     <Compile Remove="DataProcessor\ExportDto\**" />
     <Compile Remove="DataProcessor\ImportDto\**" />
+    <Compile Remove="ExportResults\**" />
     <EmbeddedResource Remove="DataProcessor\ExportDto\**" />
     <EmbeddedResource Remove="DataProcessor\ImportDto\**" />
+    <EmbeddedResource Remove="ExportResults\**" />
     <None Remove="DataProcessor\ExportDto\**" />
     <None Remove="DataProcessor\ImportDto\**" />
+    <None Remove="ExportResults\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,12 +30,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="DataProcessor\Dto\Import\" />
-    <Folder Include="ExportResults\" />
-    <Folder Include="ImportResults\" />
   </ItemGroup>
 
 </Project>

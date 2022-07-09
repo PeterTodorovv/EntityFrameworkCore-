@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace VaporStore.DataProcessor.Dto.Export
+namespace VaporStore.DataProcessor.Dto.Import
 {
-    public class GamesExportDto
+    public class GamesImportDto
     {
         [Required]
         public string Name { get; set; }
 
         [Required]
         [Range(0, double.MaxValue)]
-        public double Price { get; set; }
+        public decimal Price { get; set; }
         [Required]
         public string ReleaseDate { get; set; }
         [Required]

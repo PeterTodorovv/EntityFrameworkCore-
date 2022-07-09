@@ -13,6 +13,7 @@ namespace VaporStore.Data.Models
         public int Id { get; set; }
 
         [Required]
+        [Range(0, 1)]
         public PurchaseType Type { get; set; }
 
         [Required]
