@@ -9,14 +9,13 @@ namespace TeisterMask.Data.Models
     {
         public Employee()
         {
-            EmployeesTasks = new HashSet<EmployeeTask>();
+            EmployeesTasks = new List<EmployeeTask>();
         }
-
         [Key]
         public int Id { get; set; }
 
         [Required]
-        [StringLength(Constants.USERNAME_MAX_LENGTH)]
+        [MaxLength(Constants.UsernameMaxLength)]
         public string Username { get; set; }
 
         [Required]
@@ -24,7 +23,7 @@ namespace TeisterMask.Data.Models
         public string Email { get; set; }
 
         [Required]
-        [StringLength(Constants.PHONENUMBER_MAX_LENGTH)]
+        [MaxLength(12)]
         public string Phone { get; set; }
 
         public virtual ICollection<EmployeeTask> EmployeesTasks { get; set; }

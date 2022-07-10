@@ -9,14 +9,15 @@ namespace TeisterMask.DataProcessor.ImportDto
     [XmlType("Project")]
     public class ProjectImportDto
     {
-        [XmlElement("Name")]
+
         [Required]
-        [MaxLength(Constants.NAME_MAX_LENGTH)]
-        [MinLength(Constants.NAME_MIN_LENGTH)]
+        [XmlElement("Name")]
+        [MaxLength(Constants.NameMaxLength)]
+        [MinLength(Constants.NameMinLength)]
         public string Name { get; set; }
 
-        [XmlElement("OpenDate")]
         [Required]
+        [XmlElement("OpenDate")]
         public string OpenDate { get; set; }
 
         [XmlElement("DueDate")]

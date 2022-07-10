@@ -11,14 +11,14 @@ namespace TeisterMask.Data.Models
     {
         public Task()
         {
-            EmployeesTasks = new HashSet<EmployeeTask>();
+            EmployeesTasks = new List<EmployeeTask>();
         }
 
         [Key]
         public int Id { get; set; }
 
         [Required]
-        [StringLength(Constants.NAME_MAX_LENGTH)]
+        [MaxLength(Constants.NameMaxLength)]
         public string Name { get; set; }
 
         [Required]
@@ -28,17 +28,19 @@ namespace TeisterMask.Data.Models
         public DateTime DueDate { get; set; }
 
         [Required]
-        public ExecutionType ExecutionType  { get; set; }
+        [Range(0, 3)]
+        public ExecutionType ExecutionType { get; set; }
 
         [Required]
+        [Range(0, 4)]
         public LabelType LabelType { get; set; }
 
         [Required]
         [ForeignKey(nameof(Project))]
         public int ProjectId { get; set; }
-
         public virtual Project Project { get; set; }
 
         public virtual ICollection<EmployeeTask> EmployeesTasks { get; set; }
+
     }
 }

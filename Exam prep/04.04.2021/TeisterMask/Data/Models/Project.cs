@@ -9,16 +9,17 @@ namespace TeisterMask.Data.Models
     {
         public Project()
         {
-            Tasks = new HashSet<Task>();
+            Tasks = new List<Task>();
         }
 
         [Key]
         public int Id { get; set; }
 
         [Required]
-        [StringLength(Constants.NAME_MAX_LENGTH)]
+        [MaxLength(Constants.NameMaxLength)]
         public string Name { get; set; }
 
+        [Required]
         public DateTime OpenDate { get; set; }
 
         public DateTime? DueDate { get; set; }

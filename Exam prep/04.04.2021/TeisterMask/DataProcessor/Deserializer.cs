@@ -29,16 +29,15 @@
         public static string ImportProjects(TeisterMaskContext context, string xmlString)
         {
             StringBuilder sb = new StringBuilder();
-
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(ProjectImportDto[]), new XmlRootAttribute("Projects"));
-
-            using StringReader stringReader = new StringReader(xmlString);
-
-            ProjectImportDto[] projectDtos = (ProjectImportDto[])xmlSerializer.Deserialize(stringReader);
-
             List<Project> projects = new List<Project>();
 
-            foreach (var projectDto in projectDtos)
+            XmlRootAttribute root = new XmlRootAttribute("Projects");
+            XmlSerializer serializer = new XmlSerializer(typeof(ProjectImportDto[]), root);
+            StringReader reader = new StringReader(xmlString);
+
+            ProjectImportDto[] projectImports = (ProjectImportDto[])serializer.Deserialize(reader);
+
+            foreach(var projectDto in projectImports)
             {
                 if (!IsValid(projectDto))
                 {
@@ -46,9 +45,8 @@
                     continue;
                 }
 
-                DateTime openDate;
-                bool isOpenDateValid = DateTime.TryParseExact(projectDto.OpenDate, "dd/MM/yyyy",
-                    CultureInfo.InvariantCulture, DateTimeStyles.None, out openDate);
+                bool isOpenDateValid = DateTime.TryParseExact(projectDto.OpenDate, "dd/MM/yyyy"
+                    , CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime OpenDate);
 
                 if (!isOpenDateValid)
                 {
@@ -56,13 +54,12 @@
                     continue;
                 }
 
-                DateTime? dueDate = null;
+                DateTime? DueDate = null;
 
-                if (!String.IsNullOrWhiteSpace(projectDto.DueDate))
+                if (!string.IsNullOrEmpty(projectDto.DueDate))
                 {
-                    DateTime dueDateDt;
-                    bool isDueDateValid = DateTime.TryParseExact(projectDto.DueDate, "dd/MM/yyyy",
-                        CultureInfo.InvariantCulture, DateTimeStyles.None, out dueDateDt);
+                    bool isDueDateValid = DateTime.TryParseExact(projectDto.DueDate, "dd/MM/yyyy"
+                        , CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime DueDateValue);
 
                     if (!isDueDateValid)
                     {
@@ -70,14 +67,14 @@
                         continue;
                     }
 
-                    dueDate = dueDateDt;
+                    DueDate = DueDateValue;
                 }
 
-                Project p = new Project()
+                Project project = new Project()
                 {
                     Name = projectDto.Name,
-                    OpenDate = openDate,
-                    DueDate = dueDate
+                    OpenDate = OpenDate,
+                    DueDate = DueDate
                 };
 
                 foreach (var taskDto in projectDto.Tasks)
@@ -88,9 +85,8 @@
                         continue;
                     }
 
-                    DateTime taskOpenDate;
-                    bool isTaskOpenDateValid = DateTime.TryParseExact(taskDto.OpenDate, "dd/MM/yyyy",
-                        CultureInfo.InvariantCulture, DateTimeStyles.None, out taskOpenDate);
+                    bool isTaskOpenDateValid = DateTime.TryParseExact(taskDto.OpenDate, "dd/MM/yyyy"
+                    , CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime TaskOpenDate);
 
                     if (!isTaskOpenDateValid)
                     {
@@ -98,9 +94,8 @@
                         continue;
                     }
 
-                    DateTime taskDueDate;
-                    bool isTaskDueDateValid = DateTime.TryParseExact(taskDto.DueDate, "dd/MM/yyyy",
-                        CultureInfo.InvariantCulture, DateTimeStyles.None, out taskDueDate);
+                    bool isTaskDueDateValid = DateTime.TryParseExact(taskDto.DueDate, "dd/MM/yyyy"
+                        , CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime TaskDueDate);
 
                     if (!isTaskDueDateValid)
                     {
@@ -108,34 +103,32 @@
                         continue;
                     }
 
-                    if (taskOpenDate < openDate)
+                    if(TaskOpenDate < OpenDate)
                     {
                         sb.AppendLine(ErrorMessage);
                         continue;
                     }
 
-                    if (dueDate.HasValue && taskDueDate > dueDate.Value)
+                    if(DueDate.HasValue && TaskDueDate > DueDate.Value)
                     {
                         sb.AppendLine(ErrorMessage);
                         continue;
                     }
 
-                    Task t = new Task()
+                    Task task = new Task()
                     {
                         Name = taskDto.Name,
-                        OpenDate = taskOpenDate,
-                        DueDate = taskDueDate,
-                        ExecutionType = (ExecutionType)taskDto.ExecutionType,
-                        LabelType = (LabelType)taskDto.LabelType
+                        OpenDate = TaskOpenDate,
+                        DueDate = TaskDueDate,
+                        ExecutionType = (ExecutionType)int.Parse(taskDto.ExecutionType),
+                        LabelType = (LabelType)int.Parse(taskDto.LabelType)
                     };
 
-                    p.Tasks.Add(t);
+                    project.Tasks.Add(task);
                 }
-
-                projects.Add(p);
-                sb.AppendLine(String.Format(SuccessfullyImportedProject, p.Name, p.Tasks.Count));
+                projects.Add(project);
+                sb.AppendLine(string.Format(SuccessfullyImportedProject, project.Name, project.Tasks.Count));
             }
-
             context.Projects.AddRange(projects);
             context.SaveChanges();
 
@@ -145,8 +138,8 @@
         public static string ImportEmployees(TeisterMaskContext context, string jsonString)
         {
             StringBuilder sb = new StringBuilder();
-            EmployeeImportDto[] employeeImports = JsonConvert.DeserializeObject<EmployeeImportDto[]>(jsonString);
             List<Employee> employees = new List<Employee>();
+            EmployeeImportDto[] employeeImports = JsonConvert.DeserializeObject<EmployeeImportDto[]>(jsonString);
 
             foreach(var employeeDto in employeeImports)
             {
@@ -163,26 +156,36 @@
                     Phone = employeeDto.Phone
                 };
 
+                HashSet<int> tasksIds = new HashSet<int>();
+
                 foreach(var taskId in employeeDto.Tasks)
                 {
-                    Task task = context.Tasks.Find(taskId);
-
+                    var task = context.Tasks.Find(taskId);
                     if(task == null)
                     {
                         sb.AppendLine(ErrorMessage);
                         continue;
                     }
 
-                    employee.EmployeesTasks.Add(new EmployeeTask()
+                    if (tasksIds.Contains(taskId))
                     {
+                        continue;
+                    }
+
+                    EmployeeTask employeeTask = new EmployeeTask()
+                    {
+                        Employee = employee,
                         Task = task
-                    });
+                    };
+                    employee.EmployeesTasks.Add(employeeTask);
+                    tasksIds.Add(taskId);
                 }
-                employees.Add(employee);
+
                 sb.AppendLine(String.Format(SuccessfullyImportedEmployee, employee.Username, employee.EmployeesTasks.Count));
+                employees.Add(employee);
             }
 
-            context.Employees.AddRange(employees);
+            context.AddRange(employees);
             context.SaveChanges();
 
             return sb.ToString().TrimEnd();

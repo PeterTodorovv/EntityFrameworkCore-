@@ -26,11 +26,11 @@
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<EmployeeTask>(e => 
+            modelBuilder.Entity<EmployeeTask>(e =>
             {
                 e.HasKey(pk => new { pk.EmployeeId, pk.TaskId });
-                
-            });  
+
+            });
         }
     }
 }

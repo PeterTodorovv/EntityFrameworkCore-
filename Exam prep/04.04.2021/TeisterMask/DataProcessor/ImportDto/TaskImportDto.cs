@@ -9,28 +9,26 @@ namespace TeisterMask.DataProcessor.ImportDto
     [XmlType("Task")]
     public class TaskImportDto
     {
+        [Required]
         [XmlElement("Name")]
-        [Required]
-        [MaxLength(Constants.NAME_MAX_LENGTH)]
-        [MinLength(Constants.NAME_MIN_LENGTH)]
+        [MaxLength(Constants.NameMaxLength)]
+        [MinLength(Constants.NameMinLength)]
         public string Name { get; set; }
-
+        
+        [Required]
         [XmlElement("OpenDate")]
-        [Required]
         public string OpenDate { get; set; }
-
-        [XmlElement("DueDate")]
+        
         [Required]
+        [XmlElement("DueDate")]
         public string DueDate { get; set; }
 
+        [Required]
         [XmlElement("ExecutionType")]
+        public string ExecutionType { get; set; }
+        
         [Required]
-        [Range(0, 3)]
-        public int ExecutionType { get; set; }
-
         [XmlElement("LabelType")]
-        [Required]
-        [Range(0, 3)]
-        public int LabelType { get; set; }
+        public string LabelType { get; set; }
     }
 }
