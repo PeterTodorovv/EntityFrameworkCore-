@@ -16,6 +16,7 @@ namespace Artillery.Data.Models
         public int Id { get; set; }
 
         [Required]
+        [Range(Constants.SHELL_MIN_WEIGHT, Constants.SHELL_MAX_WEIGHT)]
         public double ShellWeight { get; set; }
 
         [Required]

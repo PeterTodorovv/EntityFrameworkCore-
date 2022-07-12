@@ -27,10 +27,7 @@
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<CountryGun>(e => 
-            {
-                e.HasKey(ek => new { ek.CountryId, ek.GunId });
-            });
+            modelBuilder.Entity<CountryGun>().HasKey(k => new {k.CountryId, k.GunId });
         }
     }
 }

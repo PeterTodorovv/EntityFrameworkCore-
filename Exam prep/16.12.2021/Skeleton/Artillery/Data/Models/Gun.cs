@@ -23,17 +23,21 @@ namespace Artillery.Data.Models
         public virtual Manufacturer Manufacturer { get; set; }
 
         [Required]
+        [Range(Constants.GUN_MIN_WEIGHT, Constants.GUN_MAX_WEiGHT)]
         public int GunWeight { get; set; }
 
         [Required]
+        [Range(Constants.BARREL_MIN_LENGTH, Constants.BARREL_MAX_LENGTH)]
         public double BarrelLength { get; set; }
 
-        public int NumberBuild { get; set; }
+        public int? NumberBuild { get; set; }
 
         [Required]
+        [Range(Constants.MIN_RANGE, Constants.MAX_RANGE)]
         public int Range { get; set; }
 
         [Required]
+        [Range(0, 5)]
         public GunType GunType { get; set; }
 
         [Required]

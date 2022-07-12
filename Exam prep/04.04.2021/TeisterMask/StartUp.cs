@@ -47,9 +47,9 @@
 
         private static void ExportEntities(TeisterMaskContext context, string exportDir)
         {
-            //var exportProjectWithTheirTasks = DataProcessor.Serializer.ExportProjectWithTheirTasks(context);
-            //Console.WriteLine(exportProjectWithTheirTasks);
-            //File.WriteAllText(exportDir + "Actual Result - ExportProjectWithTheirTasks.xml", exportProjectWithTheirTasks);
+            var exportProjectWithTheirTasks = DataProcessor.Serializer.ExportProjectWithTheirTasks(context);
+            Console.WriteLine(exportProjectWithTheirTasks);
+            File.WriteAllText(exportDir + "Actual Result - ExportProjectWithTheirTasks.xml", exportProjectWithTheirTasks);
 
             DateTime dateTime = DateTime.ParseExact("25/01/2018", "dd/MM/yyyy", CultureInfo.InvariantCulture);
             var exportMostBusiestEmployees = DataProcessor.Serializer.ExportMostBusiestEmployees(context, dateTime);
